@@ -1,4 +1,4 @@
-// Created by aryan maurya
+// Created by aditya
 
 window.onload = function() {
     var counter = 0
@@ -28,7 +28,7 @@ window.onload = function() {
         document.querySelector('.loader_container').style.display = "none";
         if (counter == 0){
             Swal.fire({
-                html: `Are you ready to go ? ✨<marquee>Developed by Aryan Maurya</marquee>`
+                html: `Are you ready to go ? ✨<marquee>👉Developed by Aditya💖</marquee>`
             });
         }
         document.body.addEventListener('click',function(){
