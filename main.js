@@ -28,7 +28,7 @@ window.onload = function() {
         document.querySelector('.loader_container').style.display = "none";
         if (counter == 0){
             Swal.fire({
-                html: `Are you ready to go ? ✨<marquee>👉Developed by Aditya💖</marquee>`
+                html: `Are you ready to go ? ✨<marquee>Developed by Aditya</marquee>`
             });
         }
         document.body.addEventListener('click',function(){
